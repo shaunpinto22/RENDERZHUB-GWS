@@ -1,6 +1,18 @@
+.navContainer{
+    width: 214px;
+    border-right: var(--border-color-drawing);
+    height: 100vh;
+}
+
 nav{
     color: white;
 }
+
+.navItems{
+    padding-top: 60px;
+}
+
+
 ul{
     list-style-type: none;
     padding: 0;
@@ -38,14 +50,10 @@ li:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 20px;
 }
 
 .logo .logoText{
     padding-left: 5px;
-}
-
-.navContainer{
-    width: 214px;
 }

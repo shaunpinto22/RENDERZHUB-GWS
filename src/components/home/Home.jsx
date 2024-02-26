@@ -28,7 +28,6 @@ const Home = () => {
           <div className="logo">
             <img src={logo0} alt="logo" />
             <img className="logoText" src={logo1} alt="logo" />
-            {/* <Logo/> */}
           </div>
           <div className="navItems">
             <ul>
@@ -70,10 +69,22 @@ const Home = () => {
                 </div>
                 <span>Shop</span>
               </li>
-              <li>Job</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Feedback</li>
+              <li 
+                onClick={(e) => handleToolClick("job")}
+                style={getToolStyles("job")}
+              >Job</li>
+              <li
+                onClick={(e) => handleToolClick("about")}
+                style={getToolStyles("about")}
+              >About</li>
+              <li
+                onClick={(e) => handleToolClick("contact")}
+                style={getToolStyles("contact")}
+              >Contact</li>
+              <li
+                onClick={(e) => handleToolClick("feedback")}
+                style={getToolStyles("feedback")}
+              >Feedback</li>
             </ul>
           </div>
         </div>
