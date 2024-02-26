@@ -72,19 +72,19 @@ const Home = () => {
               <li 
                 onClick={(e) => handleToolClick("job")}
                 style={getToolStyles("job")}
-              >Job</li>
+              ><span>Job</span></li>
               <li
                 onClick={(e) => handleToolClick("about")}
                 style={getToolStyles("about")}
-              >About</li>
+              ><span>About</span></li>
               <li
                 onClick={(e) => handleToolClick("contact")}
                 style={getToolStyles("contact")}
-              >Contact</li>
+              ><span>Contact</span></li>
               <li
                 onClick={(e) => handleToolClick("feedback")}
                 style={getToolStyles("feedback")}
-              >Feedback</li>
+              ><span>Feedback</span></li>
             </ul>
           </div>
         </div>
