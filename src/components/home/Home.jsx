@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="navContainer">
       <nav>
         <div className="navgation">
           <div className="logo">
