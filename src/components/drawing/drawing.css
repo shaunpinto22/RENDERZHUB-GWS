@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 7.5fr 2fr;
+    height: 100vh;
+}
+
+.container>div{
+    margin-top: var(--margin-top-bottom-drawing);
+    margin-bottom: var(--margin-top-bottom-drawing);
+    /* border: 2px solid rgba(255, 255, 255, 0.13); */
+}
+
+.toolbar-left{
+    border-right: var(--border-color-drawing);
+}
+
+.properties_layers-right{
+    border-left: var(--border-color-drawing);
+}

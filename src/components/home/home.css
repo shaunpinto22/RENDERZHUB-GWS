@@ -1,0 +1,47 @@
+nav{
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left:  20px;
+}
+
+span{
+    padding-left:  10px;
+}
+
+
+.icon-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+svg{
+    height: 20px;
+    width: 20px;
+}
+
+li:hover{
+    background-color: var(--btn-bg-color);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.logo .logoText{
+    padding-left: 5px;
+}

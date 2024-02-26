@@ -1,0 +1,23 @@
+:root{
+  --backgroung-color:#050412;
+  --transition:400ms;
+
+  /* -------drawing window-------*/
+  --margin-top-bottom-drawing:35px;
+  --border-color-drawing:1px solid rgba(255, 255, 255, 0.10);
+  /* icons */
+  --icon-bg-color:#7340E0;
+  --icon-svg-color:#FFFFFF;
+  --icon-height:30px;
+  --icon-width:30px;
+  --icon-bg-color-hover:#FFFFFF;
+  --icon-svg-color-hover:#7340E0;
+  /* properties */
+  --btn-bg-color:#7340E0;
+  --hex-code-window-height:30px;
+  --hex-code-window-width:200px;
+}
+
+body{
+  background: var(--backgroung-color);
+}

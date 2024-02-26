@@ -1,0 +1,64 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* background: var(--btn-bg-color); */
+    background: transparent;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--icon-bg-color);
+    /* background: var(--icon-bg-color-hover);
+    color: var(--icon-svg-color-hover); */
+}
+
+.propertiesBtn{
+    height: 30px;
+    width: 95px;
+    padding: 0px 13px;
+    gap: 5px;
+}
+
+.propertiesBtns{
+    display: grid;
+    grid-template-columns: repeat(3, 3.3fr);
+    place-items: center;
+}
+
+.propertiesControls{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertiesBtn > span{
+    font-size: 12px;
+}
+
+
+/* all properties/settings styles  */
+
+.pro_container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+/* .pro_container_label{
+    border: 1px solid green;
+} */
+
+.pro_container_settings{
+    /* border: 1px solid burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pro_container_settings form > input{
+    width: 50px;
+}

@@ -1,0 +1,78 @@
+.toolbarEdit{
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    place-items: center;
+}
+
+.tools{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--icon-svg-color);
+    height: fit-content;  /* exp: play with this */
+    gap: 15px;
+}
+
+.icon{
+    background: transparent;
+    /* background: var(--icon-bg-color); */
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.icon:hover{
+    background: var(--icon-bg-color);
+    /* background: var(--icon-bg-color-hover);
+    color: var(--icon-svg-color-hover); */
+}
+
+
+.defaultColorPicker{
+    position: relative;
+    top: 100px;
+    height: 80px;
+    width: 80px;
+}
+
+.defaultColorPicker .rectOneColor{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: black;
+    border: 1px solid var(--icon-bg-color);
+    border-radius: 4px;
+}
+
+.defaultColorPicker .rectTwoColor{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 45px;
+    width: 45px;
+    background: white;
+    border: 1px solid var(--icon-bg-color);
+    border-radius: 4px;
+}
+
+.switch_tool{
+    color: var(--icon-svg-color);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.switch_tool:hover{
+    color: var(--icon-svg-color-hover);
+}

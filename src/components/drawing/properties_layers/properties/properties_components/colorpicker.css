@@ -1,0 +1,26 @@
+.hex_code_window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: var(--hex-code-window-height);
+    width: var(--hex-code-window-width);
+    border: 1px solid var(--icon-bg-color);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.hex_code_window .hex_code_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--icon-bg-color);
+    height: 100%;
+    width: 30%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.hex_code_window .hex_code{
+    width: 70%;
+}

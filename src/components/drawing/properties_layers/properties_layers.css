@@ -1,0 +1,10 @@
+.properties-layers{
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    color: white;
+    height: 100%;
+}
+
+.properties_panel{
+    border-bottom: var(--border-color-drawing);
+}
