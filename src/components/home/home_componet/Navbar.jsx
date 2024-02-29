@@ -6,7 +6,7 @@ import logo0 from "../../svg/RZH21.svg";
 import logo1 from "../../svg/RenderzHub.svg";
 
 const Nav = () => {
-  const [selectedTool, setSelectedTool] = useState('home');
+  const [selectedTool, setSelectedTool] = useState(null);
 
   const handleToolClick = (tool) => {
     setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
