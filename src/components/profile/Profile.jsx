@@ -9,7 +9,9 @@ const Profile = () => {
           <Nav/>
         </div>
         <div className='profileContainer'>
-            <div className="banContainer"></div>
+            <div className="bannerPicContainer">
+                <div className='profilePicContainer'></div>
+            </div>
         </div>
     </div>
   )

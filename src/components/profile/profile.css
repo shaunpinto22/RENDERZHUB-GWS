@@ -1,8 +1,18 @@
-.banContainer{
+.bannerPicContainer{
     width: 1571px;
     height: 310px;
     background-color: aliceblue;
     border-radius: 23px;
+}
+
+.profilePicContainer{
+    background-color: aqua;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    border-radius: 360px;
+    position: absolute;
+    translate: 50% 50%;
 }
 
 .profilePageContainer{
