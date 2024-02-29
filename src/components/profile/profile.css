@@ -26,6 +26,7 @@
 .profileContainer{
     width: 100%;
     display: flex;
-    align-self: center;
+    /* align-self: center; */
     justify-content: center;
+    padding-top: 118px;
 }
