@@ -3,6 +3,7 @@ import Drawing from './components/drawing/Drawing';
 import Home from './components/home/Home'
 // import { Room } from './Room';
 import Shop from './components/shop/Shop';
+import Profile from './components/profile/Profile';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Room> */}
         {/* <Drawing/> */}
       {/* <Home/> */}
-      <Shop/>
+      {/* <Shop/> */}
+      <Profile/>
       {/* </Room> */}
     </>
   );
