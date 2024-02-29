@@ -1,0 +1,21 @@
+.banContainer{
+    width: 1571px;
+    height: 310px;
+    background-color: aliceblue;
+    border-radius: 23px;
+}
+
+.profilePageContainer{
+    /* display: grid;
+    grid-template-columns: 0.5fr 1.5fr; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profileContainer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}

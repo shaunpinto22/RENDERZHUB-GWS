@@ -4,8 +4,13 @@ import Nav from '../home/home_componet/Navbar'
 
 const Profile = () => {
   return (
-    <div>
-      <Nav/>
+    <div className='profilePageContainer'>
+        <div>
+          <Nav/>
+        </div>
+        <div className='profileContainer'>
+            <div className="banContainer"></div>
+        </div>
     </div>
   )
 }

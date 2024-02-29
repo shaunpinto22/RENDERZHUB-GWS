@@ -9,7 +9,7 @@ const Nav = () => {
   const [selectedTool, setSelectedTool] = useState(null);
 
   const handleToolClick = (tool) => {
-    setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
+    setSelectedTool((prevTool) => (prevTool === tool ? null : tool));
   };
 
   const getToolStyles = (tool) => {
