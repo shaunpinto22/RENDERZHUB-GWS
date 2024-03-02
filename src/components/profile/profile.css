@@ -62,6 +62,9 @@
 }
 
 .social-icons{
+    position: relative;
+    top: 265px;
+    left: 15px;
     color: var( --icon-svg-color);
     background: var(--icon-bg-color);
     height: var(--icon-height);
