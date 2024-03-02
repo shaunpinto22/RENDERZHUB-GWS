@@ -12,6 +12,9 @@ const Profile = () => {
             <div className="bannerPicContainer">
                 <div className='profilePicContainer'></div>
             </div>
+            <div className="profileTexts">
+              <span className='username'>Gransil Dsouza</span>
+            </div>
         </div>
     </div>
   )
