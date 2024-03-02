@@ -24,6 +24,7 @@ ul li{
     padding-top: 9.5px;
     padding-bottom: 9.5px;
     padding-left:  20px;
+    transition: var(--transition);
 }
 
 ul > li >span{

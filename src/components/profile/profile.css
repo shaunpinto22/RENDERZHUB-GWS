@@ -37,10 +37,40 @@
     padding-top: 20px;
     color: white;
     /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.username{
+.fullname{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 24px;
+}
+.username{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.speciality{
+    padding-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-icons{
+    color: var( --icon-svg-color);
+    background: var(--icon-bg-color);
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.social-icons:hover{
+    color: var(--icon-svg-color-hover);
+    background: var(--icon-bg-color-hover);
 }
