@@ -1,0 +1,12 @@
+.navRhstudioExit{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 15.5px;
+}
+
+/* there is another navItems css in navbar.css */
+
+.navItems{
+    padding-top: 45px;
+}
