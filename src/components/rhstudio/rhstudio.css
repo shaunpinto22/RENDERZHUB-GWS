@@ -10,3 +10,7 @@
 .navItems{
     padding-top: 45px;
 }
+
+.navRhstudioExit > div > svg{
+    transform: rotate(180deg);
+}
