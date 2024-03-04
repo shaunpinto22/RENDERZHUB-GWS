@@ -5,6 +5,7 @@ import logo0 from "../svg/RZH21.svg";
 // import logo0 from '../images/RZH21.png'
 // import logo1 from '../images/RenderzHub.png'
 import logo1 from "../svg/RenderzHub.svg";
+import Customization from "./rhstudio_component/Customization";
 
 const Rhstudio = () => {
   const [selectedTool, setSelectedTool] = useState('customization');
@@ -23,7 +24,7 @@ const Rhstudio = () => {
   };
 
   return (
-    <div className="customizationProfilePage">
+    <div className="rhstudioPage">
       <div className="navContainer">
         <nav>
           <div className="navgation">
@@ -80,8 +81,8 @@ const Rhstudio = () => {
           </div>
         </nav>
       </div>
-      <div className="customizationProfileContainer">
-        TEst
+      <div className="rhstudioContainer">
+        <Customization/>
       </div>
     </div>
   );
