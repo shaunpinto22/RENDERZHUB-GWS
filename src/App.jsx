@@ -4,16 +4,18 @@ import Home from './components/home/Home'
 // import { Room } from './Room';
 import Shop from './components/shop/Shop';
 import Profile from './components/profile/Profile';
+import Rhstudio from './components/rhstudio/Rhstudio';
 
 function App() {
   return (
     <>
       {/* <Room> */}
-        {/* <Drawing/> */}
+      {/* <Drawing/> */}
       {/* <Home/> */}
       {/* <Shop/> */}
-      <Profile/>
+      {/* <Profile/> */}
       {/* </Room> */}
+      <Rhstudio/>
     </>
   );
 }
