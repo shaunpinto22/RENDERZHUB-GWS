@@ -5,12 +5,18 @@
     padding-top: 15.5px;
 }
 
-/* there is another navItems css in navbar.css */
-
-.navItems{
-    padding-top: 45px;
-}
-
 .navRhstudioExit > div > svg{
     transform: rotate(180deg);
+}
+
+.customizationProfilePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.customizationProfileContainer{
+    color: aliceblue;
+    border:1px solid brown;
+    height: 100%;
+    width: 100%;
 }
