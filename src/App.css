@@ -28,7 +28,7 @@ body{
 }
 
 /* Scrollbar for different browsers */
-/* Chrome and Safari Scrollbar */
+/* Chrome, Brave and Safari Scrollbar */
 ::-webkit-scrollbar {
   width: 5px; /* width of the entire scrollbar */
 }
@@ -38,36 +38,6 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--icon-bg-color); /* color of the scroll thumb */
-  border-radius: 6px; /* roundness of the thumb corners */
-  /* border: 3px solid var(--btn-bg-color); border around the thumb */
-}
-
-/* Firefox */
-::-moz-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
-}
-
-::-moz-scrollbar-track {
-  background: transparent; /* color of the track */
-}
-
-::-moz-scrollbar-thumb {
-  background-color: var(--icon-bg-color); /* color of the scroll thumb */
-  border-radius: 6px; /* roundness of the thumb corners */
-  /* border: 3px solid var(--btn-bg-color); border around the thumb */
-}
-
-/* Microsoft Edge */
-::-ms-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
-}
-
-::-ms-scrollbar-track {
-  background: transparent; /* color of the track */
-}
-
-::-ms-scrollbar-thumb {
   background-color: var(--icon-bg-color); /* color of the scroll thumb */
   border-radius: 6px; /* roundness of the thumb corners */
   /* border: 3px solid var(--btn-bg-color); border around the thumb */
