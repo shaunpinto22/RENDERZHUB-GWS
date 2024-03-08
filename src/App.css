@@ -16,6 +16,9 @@
   --icon-svg-color-hover:#7340E0;
   /* properties */
   --btn-bg-color:#7340E0;
+  --btn-text-color:#FFFFFF;
+  --btn-bg-color-hover:#FFFFFF;
+  --btn-text-color-hover:#7340E0;
   --hex-code-window-height:30px;
   --hex-code-window-width:200px;
 }

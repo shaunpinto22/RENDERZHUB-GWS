@@ -42,3 +42,17 @@ input[type="text"],input[type="file"]{
     border-radius: 4px;
     padding: 5px 2px;
 }
+
+input[type="submit"]{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    transition: var(--transition);
+}
+input[type="submit"]:hover{
+    background: var(--btn-bg-color-hover);
+    color: var(--btn-text-color-hover);
+}
