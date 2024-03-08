@@ -1,0 +1,40 @@
+.customizationContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customizationContainer > form > div{
+    padding: 10px;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formElementContainer{
+    width: 250px;
+}
+
+form > div > .left{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+form > div > .right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form > div > .center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input[type="text"],input[type="file"]{
+    width: 100%;
+}

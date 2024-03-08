@@ -3,42 +3,42 @@ import './customization.css'
 
 const Customization = () => {
   return (
-    <div>
+    <div className='customizationContainer'>
       <form action="" method="post">
           <div>
-            <label htmlFor="proPic">Profile Picture</label>
-            <input type="file" name="proPic"/>
+            <div className="formElementContainer left"><label htmlFor="proPic">Profile Picture</label></div>
+            <div className="formElementContainer right"><input type="file" name="proPic"/></div>
           </div>
           <div>
-            <label htmlFor="banPic">Banner Picture</label>
-            <input type="file" name="banPic"/>
+            <div className="formElementContainer left"><label htmlFor="banPic">Banner Picture</label></div>
+            <div className="formElementContainer right"><input type="file" name="banPic"/></div>
           </div>
           <div>
-            <label htmlFor="fname">Full Name</label>
-            <input type="text" name="fname"/>
+            <div className="formElementContainer left"><label htmlFor="fname">Full Name</label></div>
+            <div className="formElementContainer right"><input type="text" name="fname"/></div>
           </div>
           <div>
-            <label htmlFor="uname">Username</label>
-            <input type="text" name="uname"/>
+            <div className="formElementContainer left"><label htmlFor="uname">Username</label></div>
+            <div className="formElementContainer right"><input type="text" name="uname"/></div>
           </div>
           <div>
-            <label htmlFor="speciality">Speciality</label>
-            <input type="text" name="speciality"/>
+            <div className="formElementContainer left"><label htmlFor="speciality">Speciality</label></div>
+            <div className="formElementContainer right"><input type="text" name="speciality"/></div>
           </div>
           <div>
-            <label htmlFor="artStation">ArtStation</label>
-            <input type="text" name="artStation"/>
+            <div className="formElementContainer left"><label htmlFor="artStation">ArtStation</label></div>
+            <div className="formElementContainer right"><input type="text" name="artStation"/></div>
           </div>
           <div>
-            <label htmlFor="insta">Instagram</label>
-            <input type="text" name="insta"/>
+            <div className="formElementContainer left"><label htmlFor="insta">Instagram</label></div>
+            <div className="formElementContainer right"><input type="text" name="insta"/></div>
           </div>
           <div>
-            <label htmlFor="linkedin">LinkedIn</label>
-            <input type="text" name="linkedin"/>
+            <div className="formElementContainer left"><label htmlFor="linkedin">LinkedIn</label></div>
+            <div className="formElementContainer right"><input type="text" name="linkedin"/></div>
           </div>
           <div>
-            <input type="submit" value="Save"/>
+            <div className="formElementContainer center"><input type="submit" value="Save"/></div>
           </div>
         </form>
     </div>
