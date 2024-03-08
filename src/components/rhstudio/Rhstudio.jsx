@@ -6,6 +6,7 @@ import logo0 from "../svg/RZH21.svg";
 // import logo1 from '../images/RenderzHub.png'
 import logo1 from "../svg/RenderzHub.svg";
 import Customization from "./rhstudio_component/Customization";
+import Upload from "./rhstudio_component/Upload";
 
 const Rhstudio = () => {
   const [selectedTool, setSelectedTool] = useState('customization');
@@ -82,6 +83,7 @@ const Rhstudio = () => {
         </nav>
       </div>
       <div className="rhstudioContainer">
+        <div className="topNav"><Upload/></div>
         <Customization/>
       </div>
     </div>

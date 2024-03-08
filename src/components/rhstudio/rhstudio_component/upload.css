@@ -1,0 +1,18 @@
+.upload{
+    display: flex;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    transition: var(--transition);
+}
+
+.upload:hover{
+    background: var(--btn-bg-color-hover);
+    color: var(--btn-text-color-hover);
+}
+
+.upload > span{
+    padding-left:  10px;
+}

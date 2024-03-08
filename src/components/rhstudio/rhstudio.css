@@ -12,7 +12,7 @@
 .rhstudioPage{
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 2px);
+    height: calc(100vh - 64px);
 }
 
 .rhstudioContainer{
@@ -20,4 +20,14 @@
     /* border:1px solid brown; */
     height: 100%;
     width: 100%;
+}
+
+.topNav{
+    background-color: transparent;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 0px 20px;
 }
