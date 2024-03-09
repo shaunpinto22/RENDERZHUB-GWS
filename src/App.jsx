@@ -5,6 +5,7 @@ import Home from './components/home/Home'
 import Shop from './components/shop/Shop';
 import Profile from './components/profile/Profile';
 import Rhstudio from './components/rhstudio/Rhstudio';
+import Getstarted from './components/get_started/Getstarted';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Shop/> */}
       {/* <Profile/> */}
       {/* </Room> */}
-      <Rhstudio/>
+      {/* <Rhstudio/> */}
+      <Getstarted/>
     </>
   );
 }
