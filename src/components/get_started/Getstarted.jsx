@@ -18,6 +18,9 @@ const Getstarted = () => {
 
   return (
     <div>
+      <div className='credSlider'>
+        <span id='slider'></span><span>Sign-In</span><span>Sign-Up</span>
+      </div>
       <div className={`container-credentials ${isRegisterActive || isLoginActive ? 'active' : 'hidden'}`} id="container-credentials">
         <div className={`form-container sign-up ${isRegisterActive ? 'active' : 'hidden'}`}>
           <form>
