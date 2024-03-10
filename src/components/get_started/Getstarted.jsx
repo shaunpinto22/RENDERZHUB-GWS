@@ -3,6 +3,7 @@ import './getstarted.css'
 
 const Getstarted = () => {
 
+  const [selectedTool, setSelectedTool] = useState(null);
   const [isRegisterActive, setIsRegisterActive] = useState(false);
   const [isLoginActive, setIsLoginActive] = useState(false);
 
@@ -16,10 +17,25 @@ const Getstarted = () => {
     setIsRegisterActive(false); // Reset register state
   };
 
+  const handleToolClick = (tool) => {
+    setSelectedTool((prevTool) => (prevTool === tool ? null : tool));
+  };
+
+  const getToolStyles = (tool) => {
+    return selectedTool === tool
+      ? {
+          background: "var(--btn-bg-color)",
+          color: "var(--btn-text-color)",
+        }
+      : {};
+  };
+
   return (
     <div>
       <div className='credSlider'>
-        <span id='slider'></span><span>Sign-In</span><span>Sign-Up</span>
+        {/* <span id='slider'></span> */}
+        <span onClick={(e) => handleToolClick("sign-in")} style={getToolStyles("sign-in")}>Sign-In</span>
+        <span onClick={(e) => handleToolClick("sign-up")} style={getToolStyles("sign-up")}>Sign-Up</span>
       </div>
       <div className={`container-credentials ${isRegisterActive || isLoginActive ? 'active' : 'hidden'}`} id="container-credentials">
         <div className={`form-container sign-up ${isRegisterActive ? 'active' : 'hidden'}`}>
