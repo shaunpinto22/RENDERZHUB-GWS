@@ -111,11 +111,11 @@
     }
 }
 
-.social-icons{
+.container-credentials>.form-container>form>.social-icons{
     margin: 20px 0;
 }
 
-.social-icons a{
+.container-credentials>.form-container>form>.social-icons>a{
     border: 1px solid #ccc;
     border-radius: 20%;
     display: inline-flex;
