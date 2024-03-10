@@ -1,11 +1,25 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './getstarted.css'
 
 const Getstarted = () => {
+
+  const [isRegisterActive, setIsRegisterActive] = useState(false);
+  const [isLoginActive, setIsLoginActive] = useState(false);
+
+  const handleRegisterClick = () => {
+    setIsRegisterActive(true);
+    setIsLoginActive(false); // Reset login state
+  };
+
+  const handleLoginClick = () => {
+    setIsLoginActive(true);
+    setIsRegisterActive(false); // Reset register state
+  };
+
   return (
     <div>
-      <div className="container-credentials" id="container-credentials">
-        <div className="form-container sign-up">
+      <div className={`container-credentials ${isRegisterActive || isLoginActive ? 'active' : 'hidden'}`} id="container-credentials">
+        <div className={`form-container sign-up ${isRegisterActive ? 'active' : 'hidden'}`}>
           <form>
             <h1>Create Account</h1>
             <div className="social-icons">
@@ -21,7 +35,7 @@ const Getstarted = () => {
             <button>Sign Up</button>
           </form>
         </div>
-        <div className="form-container sign-in">
+        <div className={`form-container sign-in ${isLoginActive ? 'active' : 'hidden'}`}>
           <form>
             <h1>Sign In</h1>
             <div className="social-icons">
@@ -39,15 +53,15 @@ const Getstarted = () => {
         </div>
         <div className="toggle-container">
             <div className="toggle">
-                <div className="toggle-panel toggle-left">
+                <div className={`toggle-panel toggle-left ${isLoginActive ? 'active' : 'hidden'}`}>
                     <h1>Welcome Back!</h1>
                     <p>Enter your personal details to use all of site features</p>
-                    <button className="hidden" id="login">Sign In</button>
+                    <button className={isLoginActive ? 'active' : 'hidden'} id="login" onClick={handleLoginClick}>Sign In</button>
                 </div>
-                <div className="toggle-panel toggle-right">
+                <div className={`toggle-panel toggle-right ${isRegisterActive ? 'active' : 'hidden'}`}>
                     <h1>Hello, Friend!</h1>
                     <p>Register with your personal details to use all of site features</p>
-                    <button className="hidden" id="register">Sign Up</button>
+                    <button className={isRegisterActive ? 'active' : 'hidden'} id="register" onClick={handleRegisterClick}>Sign Up</button>
                 </div>
             </div>
         </div>
