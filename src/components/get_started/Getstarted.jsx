@@ -3,7 +3,7 @@ import './getstarted.css'
 
 const Getstarted = () => {
 
-  const [selectedTool, setSelectedTool] = useState(null);
+  const [selectedTool, setSelectedTool] = useState('sign-up');
   const [isRegisterActive, setIsRegisterActive] = useState(false);
   const [isLoginActive, setIsLoginActive] = useState(false);
 
@@ -31,46 +31,46 @@ const Getstarted = () => {
   };
 
   return (
-    <div>
+    <div className='cred-Container'>
       <div className='credSlider'>
         {/* <span id='slider'></span> */}
         <span onClick={(e) => handleToolClick("sign-in")} style={getToolStyles("sign-in")}>Sign-In</span>
         <span onClick={(e) => handleToolClick("sign-up")} style={getToolStyles("sign-up")}>Sign-Up</span>
       </div>
-      <div className={`container-credentials ${isRegisterActive || isLoginActive ? 'active' : 'hidden'}`} id="container-credentials">
-        <div className={`form-container sign-up ${isRegisterActive ? 'active' : 'hidden'}`}>
+      <div className='container-credentials' id="container-credentials">
+        <div className='form-container sign-up'>
           <form>
             <h1>Create Account</h1>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a href="/" className="icon"><i className="fa-brands fa-google-plus-g"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-facebook-f"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-github"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-linkedin-in"></i></a>
-            </div>
-            <span>or use your email for registeration</span>
+            </div> */}
+            {/* <span>or use your email for registeration</span> */}
             <input type="text" placeholder="Name" />
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
             <button>Sign Up</button>
           </form>
         </div>
-        <div className={`form-container sign-in ${isLoginActive ? 'active' : 'hidden'}`}>
+        <div className='form-container sign-in'>
           <form>
             <h1>Sign In</h1>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a href="/" className="icon"><i className="fa-brands fa-google-plus-g"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-facebook-f"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-github"></i></a>
               <a href="/" className="icon"><i className="fa-brands fa-linkedin-in"></i></a>
-            </div>
-            <span>or use your email password</span>
+            </div> */}
+            {/* <span>or use your email password</span> */}
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
             <a href="/">Forget Your Password?</a>
             <button>Sign In</button>
           </form>
         </div>
-        <div className="toggle-container">
+        {/* <div className="toggle-container">
             <div className="toggle">
                 <div className={`toggle-panel toggle-left ${isLoginActive ? 'active' : 'hidden'}`}>
                     <h1>Welcome Back!</h1>
@@ -83,7 +83,7 @@ const Getstarted = () => {
                     <button className={isRegisterActive ? 'active' : 'hidden'} id="register" onClick={handleRegisterClick}>Sign Up</button>
                 </div>
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
