@@ -18,18 +18,61 @@ const Getstarted = () => {
   };
 
   const handleToolClick = (tool) => {
-    setSelectedTool((prevTool) => (prevTool === tool ? null : tool));
+    setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
 
+  // const getToolStyles = (tool) => {
+  //   return selectedTool === tool
+  //     ? {
+  //         background: "var(--btn-bg-color)",
+  //         color: "var(--btn-text-color)",
+  //         width: "70px",
+  //         height: "35px",
+  //       }
+  //     : {};
+  // };
+
+  // const getToolStyles = (tool) => {
+  //   if (selectedTool === "sign-up" && selectedTool !== "sign-in") {
+  //     return {
+  //       position: "relative",
+  //       background: "var(--btn-bg-color)",
+  //       color: "var(--btn-text-color)",
+  //       width: "70px",
+  //       height: "35px",
+  //       left: "0%",
+  //       transition: "all 0.6s ease-in-out",
+  //     };
+  //   } else if (selectedTool === "sign-in" && selectedTool !== "sign-up") {
+  //     return {
+  //       position: "relative",
+  //       background: "var(--btn-bg-color)",
+  //       color: "var(--btn-text-color)",
+  //       width: "70px",
+  //       height: "35px",
+  //       right: "0%",
+  //       transition: "all 0.6s ease-in-out",
+  //     };
+  //   } else {
+  //     return {
+  //       background: "var(--btn-bg-color-hover)",
+  //       color: "var(--btn-text-color-hover)",
+  //       width: "70px",
+  //       height: "35px",
+  //     };
+  //   }
+  // };
+
   const getToolStyles = (tool) => {
-    return selectedTool === tool
-      ? {
-          background: "var(--btn-bg-color)",
-          color: "var(--btn-text-color)",
-          width: "70px",
-          height: "35px",
-        }
-      : {};
+    return {
+      position: 'relative',
+      background: selectedTool === tool ? 'var(--btn-bg-color)' : 'var(--btn-bg-color-hover)',
+      color: selectedTool === tool ? 'var(--btn-text-color)' : 'var(--btn-text-color-hover)',
+      width: '70px',
+      height: '35px',
+      transform: selectedTool === 'sign-up' ? 'translateX(0%)' : 'translateX(100%)',
+      transition: 'all 0.6s ease-in-out',
+    };
   };
 
   return (
