@@ -13,11 +13,11 @@ function App() {
       {/* <Room> */}
       {/* <Drawing/> */}
       {/* <Home/> */}
-      {/* <Shop/> */}
+      <Shop/>
       {/* <Profile/> */}
       {/* </Room> */}
       {/* <Rhstudio/> */}
-      <Getstarted/>
+      {/* <Getstarted/> */}
     </>
   );
 }

@@ -1,0 +1,66 @@
+.shopPage{
+    display: flex;
+    flex-direction: row;
+}
+
+.shopContainer{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.shopCards{
+    /* border: 1px solid white; */
+    height: calc(100vh - 68px);
+}
+
+.shopCard{
+    /* border: 1px solid turquoise; */
+    width: 261px;
+    height: 310px;
+    border-radius: 7px;
+    background-color: var(--shop-card-bg-color);
+}
+
+.shopImg{
+    height: 196px;
+    width: 100%;
+    /* border: 1px solid darkkhaki; */
+    border-radius: 7px 7px 0px 0px;
+    background-color: rgb(255, 230, 0);
+}
+
+.shopInfoMain{
+    display: flex;
+    margin: 15px;
+}
+
+.shopInfoMain{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.shopInfoFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    /* border: 1px solid darkkhaki; */
+}
+
+.shopInfoFooter>span{
+    /* border: 1px solid rgb(108, 36, 190); */
+    width: 100%;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.shopInfoUsername{
+    display: flex;
+    justify-content: left;
+}
+.shopInfoPrice{
+    display: flex;
+    justify-content: right;
+}

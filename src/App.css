@@ -21,6 +21,9 @@
   --btn-text-color-hover:#7340E0;
   --hex-code-window-height:30px;
   --hex-code-window-width:200px;
+
+  /* shop */
+  --shop-card-bg-color:#171628;
 }
 
 body{
