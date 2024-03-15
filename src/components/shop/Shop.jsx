@@ -17,8 +17,8 @@ const Shop = () => {
             <div className='shopImg'></div>
             <div className="shopInfo">
               <div className='shopInfoMain'>
-                <span>Title Here..</span>
-                <span>Description Here..</span>
+                <span className='shopInfoTitle'>Title Here..</span>
+                <span className='shopInfoDesc'>Description Here..</span>
               </div>
               <div className='shopInfoFooter'>
                 <span className='shopInfoUsername'>By:username</span>
