@@ -39,7 +39,9 @@ const Shop = () => {
               <span className='cardInfoDate'>Uploaded date..</span>
             </div>
             <div className='cardInfoMainBody'>
+              <div className='cardInfoThumbnail'>
 
+              </div>
             </div>
           </Cardpopup>
         </div>

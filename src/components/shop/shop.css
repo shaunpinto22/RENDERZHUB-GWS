@@ -111,3 +111,16 @@
     font-size: 12px;
     margin-bottom: 5px;
 }
+
+.cardInfoMainBody{
+    border: 1px solid red;
+    height: fit-content;
+    margin-top: 45px;
+}
+
+.cardInfoThumbnail{
+    background-color: white;
+    width: 459px;
+    height: 258px;
+    border-radius: 23px;
+}
