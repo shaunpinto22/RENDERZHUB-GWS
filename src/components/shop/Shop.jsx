@@ -3,6 +3,7 @@ import './shop.css'
 import Nav from '../home/home_componet/Navbar'
 import Upload from '../rhstudio/rhstudio_component/Upload'
 import ProfileRadiusPic from '../rhstudio/rhstudio_component/ProfileRadiusPic'
+import Cardpopup from './shop_component/Cardpopup'
 
 const Shop = () => {
   return (
@@ -26,6 +27,7 @@ const Shop = () => {
               </div>
             </div>
           </div>
+          <Cardpopup trigger={true}>Popup</Cardpopup>
         </div>
       </div>
     </div>
