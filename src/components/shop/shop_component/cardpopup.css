@@ -9,4 +9,21 @@
     justify-content: center;
     align-items: center;
     color: white;
+    /* color: black; */
+}
+
+.cardpopup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 1000px;
+    height: 850px;
+    background-color: var(--card-popup-bg-color);
+    border-radius: 23px;
+}
+
+.cardpopup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
 }

@@ -23,7 +23,9 @@
   --hex-code-window-width:200px;
 
   /* shop */
-  --shop-card-bg-color:#171628;
+  --shop-card-bg-color:#171628; 
+  
+  --card-popup-bg-color:#222238;
 }
 
 body{

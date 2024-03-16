@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './shop.css'
 import Nav from '../home/home_componet/Navbar'
 import Upload from '../rhstudio/rhstudio_component/Upload'
@@ -6,6 +6,12 @@ import ProfileRadiusPic from '../rhstudio/rhstudio_component/ProfileRadiusPic'
 import Cardpopup from './shop_component/Cardpopup'
 
 const Shop = () => {
+
+  const [cardClick, setCardClick]=useState(false);
+  const cardPopup = () => {
+    setCardClick(true);
+  }
+
   return (
     <div className='shopPage'>
       <div className='navContainer'>
@@ -14,7 +20,7 @@ const Shop = () => {
       <div className='shopContainer'>
         <div className="topNav"><Upload/><ProfileRadiusPic/></div>
         <div className='shopCards'>
-          <div className='shopCard'>
+          <div className='shopCard' onClick={cardPopup}>
             <div className='shopImg'></div>
             <div className="shopInfo">
               <div className='shopInfoMain'>
@@ -27,7 +33,9 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          <Cardpopup trigger={true}>Popup</Cardpopup>
+          <Cardpopup trigger={cardClick}>
+            <h1>Popup test</h1>
+          </Cardpopup>
         </div>
       </div>
     </div>
