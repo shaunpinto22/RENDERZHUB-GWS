@@ -33,7 +33,7 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          <Cardpopup trigger={cardClick}>
+          <Cardpopup trigger={cardClick} setTrigger={setCardClick}>
             <h1>Popup test</h1>
           </Cardpopup>
         </div>
