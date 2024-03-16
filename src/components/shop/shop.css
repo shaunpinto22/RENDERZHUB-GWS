@@ -113,9 +113,24 @@
 }
 
 .cardInfoMainBody{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: fit-content;
     margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardMainBodyLeft{
+    border: 1px solid palegreen;
+    width: 100%;
+}
+
+.cardMainBodyRight{
+    border: 1px solid peru;
+    width: 100%;
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
 }
 
 .cardInfoThumbnail{
@@ -123,4 +138,9 @@
     width: 459px;
     height: 258px;
     border-radius: 23px;
+}
+
+.cardInfoPrice{
+    font-size: 32px;
+    font-weight: 800;
 }

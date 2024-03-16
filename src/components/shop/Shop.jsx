@@ -39,8 +39,11 @@ const Shop = () => {
               <span className='cardInfoDate'>Uploaded date..</span>
             </div>
             <div className='cardInfoMainBody'>
-              <div className='cardInfoThumbnail'>
-
+              <div className="cardMainBodyLeft">
+                <div className='cardInfoThumbnail'></div>
+              </div>
+              <div className="cardMainBodyRight">
+                <span className='cardInfoPrice'>$price</span>
               </div>
             </div>
           </Cardpopup>
