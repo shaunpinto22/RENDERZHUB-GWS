@@ -129,8 +129,9 @@
     border: 1px solid peru;
     width: 100%;
     display: flex;
-    /* align-items: ; */
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .cardInfoThumbnail{
@@ -143,4 +144,25 @@
 .cardInfoPrice{
     font-size: 32px;
     font-weight: 800;
+}
+
+.cardInfoPayments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+
+.cardInfoPayment{
+    display: flex;
+    flex-direction: row;
+}
+
+.pay-icon{
+    height: 13px;
+    width: 13px;
+    margin-right: 2px;
 }
