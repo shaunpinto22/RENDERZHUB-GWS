@@ -34,7 +34,13 @@ const Shop = () => {
             </div>
           </div>
           <Cardpopup trigger={cardClick} setTrigger={setCardClick}>
-            <h1>Popup test</h1>
+            <div className="cardInfoMainHead">
+              <span className='cardInfoTitle'>Title here..</span>
+              <span className='cardInfoDate'>Uploaded date..</span>
+            </div>
+            <div className='cardInfoMainBody'>
+
+            </div>
           </Cardpopup>
         </div>
       </div>
