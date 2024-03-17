@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './threedCanvas.css'
 
 import { Canvas } from '@react-three/fiber'
