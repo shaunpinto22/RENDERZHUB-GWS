@@ -61,6 +61,24 @@ const Shop = () => {
                   </div> */}
                   <span>Pay</span>
                 </div>
+                <div className='cardInfoTable'>
+                  <table border='1' cellSpacing='0'>
+                    <tbody>
+                      <tr>
+                        <td><span className='cardInfoTableContents'>Created By</span></td>
+                        <td><span className='cardInfoTableContents'>@username</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoTableContents'>Style</span></td>
+                        <td><span className='cardInfoTableKeywords'>keywords</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoTableContents'>Tags</span></td>
+                        <td><span className='cardInfoTableKeywords'>keywords</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </Cardpopup>
