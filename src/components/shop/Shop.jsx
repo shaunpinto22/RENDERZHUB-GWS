@@ -59,7 +59,18 @@ const Shop = () => {
                         <div className='cardInfoProfileComment'><span>commenting........</span></div>
                       </div>
                     </div>
-                  </div>
+                    <div className='cardInfoComment'>
+                      <div className='cardInfoProfileComments'></div>
+                      <div className='cardInfoProfileCommentsDetails'>
+                        <div className='cardInfoProfileComment'>
+                          <form action="" className='commentForm'>
+                            <input type="text" name='comment' placeholder='Enter your comment..'/>
+                            <input type="submit" value='Publish'/>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
                 </div>
               </div>
               <div className="cardMainBodyRight">
