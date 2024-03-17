@@ -210,3 +210,41 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.cardInfoProduct{
+    /* margin-top: 15px; */
+    border: var(--border-color-drawing);
+    border-radius: 23px;
+    padding:20px 15px;
+    width: 80%;
+    margin: 15px 25px;
+    height: max-content;
+}
+
+.cardInfoProduct>table{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.cardInfoProduct>table>tbody>tr>td{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cardInfoProductContentLeft{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cardInfoProductContentRight{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 16px;
+    font-weight: 700;
+}

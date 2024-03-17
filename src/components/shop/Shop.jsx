@@ -79,6 +79,40 @@ const Shop = () => {
                     </tbody>
                   </table>
                 </div>
+                <div className='cardInfoProduct'>
+                  <table border='0' cellSpacing='0'>
+                    <tbody>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Reviews</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>number here..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>License</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>license here..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Rigged geometries</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>Yes or No..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Animation</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>Yes or No..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Geometry</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>number here..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Download size</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>number here..</span></td>
+                      </tr>
+                      <tr>
+                        <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Included formats</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>different formats</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </Cardpopup>
