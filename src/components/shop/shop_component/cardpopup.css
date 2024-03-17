@@ -17,7 +17,8 @@
     padding: 32px;
     width: 100%;
     max-width: 1000px;
-    height: 850px; /* max-conetent */
+    height: max-content; /* max-conetent */
+    max-height: 850px;
     background-color: var(--card-popup-bg-color);
     border-radius: 23px;
 }
