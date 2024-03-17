@@ -113,7 +113,7 @@
 }
 
 .cardInfoMainBody{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: fit-content;
     margin-top: 45px;
     display: flex;
@@ -121,12 +121,12 @@
 }
 
 .cardMainBodyLeft{
-    border: 1px solid palegreen;
+    /* border: 1px solid palegreen; */
     width: 100%;
 }
 
 .cardMainBodyRight{
-    border: 1px solid peru;
+    /* border: 1px solid peru; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -247,4 +247,119 @@
     justify-content: right;
     font-size: 16px;
     font-weight: 700;
+}
+
+.cardInfoProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.cardInfoProfilePic{
+    background-color: rgb(158, 255, 113);
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+}
+
+.cardInfoProfileText{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: left;
+    margin-left: 5px;
+}
+
+.cardInfoProfileText>span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.followbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    width: 97px;
+    height: 29px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.followbtn:hover{
+    background-color: var(--btn-bg-color-hover);
+    color: var(--btn-text-color-hover);
+}
+
+.cardInfoCommentsContainer{
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+
+.cardInfoCommentHead{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardInfoComments{
+    border: var(--border-color-drawing);
+    margin-top: 15px;
+    border-radius: 23px;
+    padding: 5px;
+}
+
+.cardInfoComment{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    border: var(--border-color-drawing);
+    border-radius: 23px;
+    padding: 5px;
+    align-items: center;
+}
+
+.cardInfoProfileComments{
+    background-color: rgb(158, 255, 113);
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+}
+
+.cardInfoProfileCommentsDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.cardInfoProfileDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardInfoProfileUsername{
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.cardInfoProfileTime{
+    font-size: 10px;
+    font-weight: 400;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cardInfoProfileComment{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
 }

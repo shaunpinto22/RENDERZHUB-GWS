@@ -41,6 +41,26 @@ const Shop = () => {
             <div className='cardInfoMainBody'>
               <div className="cardMainBodyLeft">
                 <div className='cardInfoThumbnail'></div>
+                <div className='cardInfoProfile'>
+                  <div className='cardInfoProfilePic'></div>
+                  <div className='cardInfoProfileText'>
+                    <span>@username</span>
+                    <div className='followbtn'>Follow +</div>
+                  </div>
+                </div>
+                <div className="cardInfoCommentsContainer">
+                  <span className='cardInfoCommentHead'>Comments</span>
+                  <div className='cardInfoComments'>
+                    {/* <div className='cardInfoComment'>No Comments</div> */}
+                    <div className='cardInfoComment'>
+                      <div className='cardInfoProfileComments'></div>
+                      <div className='cardInfoProfileCommentsDetails'>
+                        <div className='cardInfoProfileDetails'><span className='cardInfoProfileUsername'>@username</span><span className='cardInfoProfileTime'>Time..</span></div>
+                        <div className='cardInfoProfileComment'><span>commenting........</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="cardMainBodyRight">
                 <span className='cardInfoPrice'>$price</span>
@@ -108,7 +128,7 @@ const Shop = () => {
                       </tr>
                       <tr>
                         <td><span className='cardInfoProductContent cardInfoProductContentLeft'>Included formats</span></td>
-                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>different formats</span></td>
+                        <td><span className='cardInfoProductContent cardInfoProductContentRight'>different formats..</span></td>
                       </tr>
                     </tbody>
                   </table>
