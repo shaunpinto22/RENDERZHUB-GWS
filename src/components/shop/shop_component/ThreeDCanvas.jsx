@@ -12,11 +12,11 @@ const Model = (props) => {
 const ThreeDCanvas = () => {
   return (
     <div className='ThreeDCanvasContainer'>
-      <Canvas dpr={[1,2]} shadows camera={{fov:45}} style={{"border-radius": "23px"}}>
+      <Canvas dpr={[1,2]} camera={{fov:45}} style={{"border-radius": "23px"}}>
         <color attach="background" args={["#101010"]}/>
-        <PresentationControls speed={1.5} global zoom={.5} polar={[-0.1, Math.PI/4]}>
+        <PresentationControls speed={1.5} global zoom={1} polar={[-0.1, Math.PI/4]}>
           <Stage environment={"studio"}>
-            <Model scale={0.01}/>
+            <Model scale={0.02}/>
           </Stage>
         </PresentationControls>
       </Canvas>
