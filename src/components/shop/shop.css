@@ -290,6 +290,7 @@
     height: 29px;
     border-radius: 10px;
     transition: var(--transition);
+    margin-top: 5px;
 }
 
 .followbtn:hover{
