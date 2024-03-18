@@ -21,6 +21,7 @@
     height: 310px;
     border-radius: 7px;
     background-color: var(--shop-card-bg-color);
+    margin: 0 30px;
 }
 
 .shopImg{
