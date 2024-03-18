@@ -41,7 +41,8 @@ const Shop = () => {
             </div>
             <div className='cardInfoMainBody'>
               <div className="cardMainBodyLeft">
-                <div className='cardInfoThumbnail'><ThreeDCanvas/></div>
+                {/* <div className='cardInfoThumbnail'></div> */}
+                <ThreeDCanvas/>
                 <div className='cardInfoProfile'>
                   <div className='cardInfoProfilePic'></div>
                   <div className='cardInfoProfileText'>
