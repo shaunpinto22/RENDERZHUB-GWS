@@ -9,7 +9,7 @@
 .fullScreen{
     position: relative;
     z-index: 1;
-    left: 92%;
+    left: 91.5%;
     top: 85%;
     /* border: 1px solid red; */
     background-color: var(--icon-bg-color);
