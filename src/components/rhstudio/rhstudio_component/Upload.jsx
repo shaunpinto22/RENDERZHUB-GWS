@@ -66,7 +66,7 @@ const Upload = () => {
                             </div>
                             <div>
                                 <div className="formElementContainer left"><label htmlFor="desc">Model Description</label></div>
-                                <div className="formElementContainer right"><input type="text" name="desc" /></div>
+                                <div className="formElementContainer right"><textarea type="text" name="desc" /></div>
                             </div>
                             <div>
                                 <div className="formElementContainer left"><label htmlFor="3dviewer">3D Viewer (glb format)</label></div>
@@ -101,7 +101,7 @@ const Upload = () => {
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="desc">Image Description</label></div>
-                            <div className="formElementContainer right"><input type="text" name="desc" /></div>
+                            <div className="formElementContainer right"><textarea type="text" name="desc" /></div>
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="imgviewer">Image Viewer</label></div>
@@ -136,7 +136,7 @@ const Upload = () => {
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="desc">Video Description</label></div>
-                            <div className="formElementContainer right"><input type="text" name="desc" /></div>
+                            <div className="formElementContainer right"><textarea type="text" name="desc" /></div>
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="vidPreview">Video Preview</label></div>
@@ -171,7 +171,7 @@ const Upload = () => {
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="desc">Audio Description</label></div>
-                            <div className="formElementContainer right"><input type="text" name="desc" /></div>
+                            <div className="formElementContainer right"><textarea type="text" name="desc" /></div>
                         </div>
                         <div>
                             <div className="formElementContainer left"><label htmlFor="audPreview">Audio Preview</label></div>
@@ -206,7 +206,7 @@ const Upload = () => {
                          </div>
                          <div>
                              <div className="formElementContainer left"><label htmlFor="desc">Job Description</label></div>
-                             <div className="formElementContainer right"><input type="text" name="desc" /></div>
+                             <div className="formElementContainer right"><textarea type="text" name="desc" /></div>
                          </div>
                          <div>
                              <div className="formElementContainer left"><label htmlFor="clink">Company Link</label></div>

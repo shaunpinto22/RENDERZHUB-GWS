@@ -35,7 +35,7 @@ form > div > .center{
     justify-content: center;
 }
 
-input[type="text"]{
+input[type="text"],textarea{
     width: 100%;
     outline: none;
     border: none;
