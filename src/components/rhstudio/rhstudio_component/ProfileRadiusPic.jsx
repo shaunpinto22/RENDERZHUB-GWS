@@ -1,13 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './profileradiuspic.css'
 import DropDownProfile from './DropDownProfile'
 
 const ProfileRadiusPic = () => {
+  const [openProfile, setOpenProfile] = useState(false);
   return (
     <>
-      <div className='profileradiuspic'>
+      <div className='profileradiuspic' onClick={()=> setOpenProfile((prev)=>!prev)}>
       </div>
-      <DropDownProfile/>
+      {
+        openProfile && <DropDownProfile/>
+      }
     </>
   )
 }
