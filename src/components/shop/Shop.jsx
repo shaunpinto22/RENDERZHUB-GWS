@@ -5,6 +5,7 @@ import Upload from '../rhstudio/rhstudio_component/Upload'
 import ProfileRadiusPic from '../rhstudio/rhstudio_component/ProfileRadiusPic'
 import Cardpopup from './shop_component/Cardpopup'
 import ThreeDCanvas from './shop_component/ThreeDCanvas'
+import VideoPlayer from './shop_component/VideoPlayer'
 
 const Shop = () => {
 
@@ -43,6 +44,7 @@ const Shop = () => {
               <div className="cardMainBodyLeft">
                 {/* <div className='cardInfoThumbnail'></div> */}
                 <ThreeDCanvas/>
+                {/* <VideoPlayer/> */}
                 <div className='cardInfoProfile'>
                   <div className='cardInfoProfilePic'></div>
                   <div className='cardInfoProfileText'>
