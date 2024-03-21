@@ -86,6 +86,10 @@ const Getstarted = () => {
           <img src={logo0} alt="logo" />
           <img className="logoText" src={logo1} alt="logo" />
         </div>
+        <div className='HeroText'>
+          <span className='HeroTextMain'>Empowering Digital Artists to<br/>Showcase and Collaborate</span>
+          <span className='HeroTextSub'>Unleash your creativity with our platform, empowering digital artists to<br/> showcase their work and collaborate seamlessly in a vibrant community.</span>
+        </div>
       </div>
       <div className='MidSection'>
         <div className="borderWraper"><img src="/images/fg1.png" alt="" srcset="" /></div>
