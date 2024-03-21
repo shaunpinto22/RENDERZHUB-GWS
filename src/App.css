@@ -35,7 +35,7 @@ body{
 /* Scrollbar for different browsers */
 /* Chrome, Brave and Safari Scrollbar */
 ::-webkit-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
+  width: 2px; /* width of the entire scrollbar */
 }
 
 ::-webkit-scrollbar-track {
@@ -44,6 +44,6 @@ body{
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--icon-bg-color); /* color of the scroll thumb */
-  border-radius: 6px; /* roundness of the thumb corners */
+  border-radius: 4px; /* roundness of the thumb corners */
   /* border: 3px solid var(--btn-bg-color); border around the thumb */
 }
