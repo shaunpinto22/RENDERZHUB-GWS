@@ -102,25 +102,25 @@ const Getstarted = () => {
           <div className='borderWraper'>
             <div className='cardMS'>
               <div className='cardMSPic'></div>
-              <div className='cardMSText'></div>
+              <div className='cardMSText'><span>3D Model</span></div>
             </div>
           </div>
           <div className='borderWraper'>
             <div className='cardMS'>
               <div className='cardMSPic'></div>
-              <div className='cardMSText'></div>
+              <div className='cardMSText'><span>Image</span></div>
             </div>
           </div>
           <div className='borderWraper'>
             <div className='cardMS'>
               <div className='cardMSPic'></div>
-              <div className='cardMSText'></div>
+              <div className='cardMSText'><span>Video</span></div>
             </div>
           </div>
           <div className='borderWraper'>
             <div className='cardMS'>
               <div className='cardMSPic'></div>
-              <div className='cardMSText'></div>
+              <div className='cardMSText'><span>Audio</span></div>
             </div>
           </div>
         </div>
