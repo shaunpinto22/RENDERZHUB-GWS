@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import './getstarted.css'
 
 import logo0 from "../svg/RZH21.svg";
@@ -87,18 +87,42 @@ const Getstarted = () => {
           <img className="logoText" src={logo1} alt="logo" />
         </div>
         <div className='HeroText'>
-          <span className='HeroTextMain'>Empowering Digital Artists to<br/>Showcase and Collaborate</span>
-          <span className='HeroTextSub'>Unleash your creativity with our platform, empowering digital artists to<br/> showcase their work and collaborate seamlessly in a vibrant community.</span>
+          <span className='HeroTextMain'>Empowering Digital Artists to<br />Showcase and Collaborate</span>
+          <span className='HeroTextSub'>Unleash your creativity with our platform, empowering digital artists to<br /> showcase their work and collaborate seamlessly in a vibrant community.</span>
           <div className='startedBtn'><span>Get Started</span></div>
         </div>
       </div>
       <div className='MidSection'>
-        <div className="borderWraper"><img src="/images/fg1.png" alt="" srcset="" /></div>
+        <div className='MainCardMidSection'>
+          <div><span>B</span><span>U</span><span>Y</span></div>
+          <div className="borderWraper"><img src="/images/fg1.png" alt="" srcset="" /></div>
+          <div><span>S</span><span>E</span><span>L</span><span>L</span></div>
+        </div>
         <div className='cardMidSection'>
-          <div className='borderWraper'><div className='cardMS'>Image</div></div>
-          <div className='borderWraper'><div className='cardMS'>Video</div></div>
-          <div className='borderWraper'><div className='cardMS'>Audio</div></div>
-          <div className='borderWraper'><div className='cardMS'>3d</div></div>
+          <div className='borderWraper'>
+            <div className='cardMS'>
+              <div className='cardMSPic'></div>
+              <div className='cardMSText'></div>
+            </div>
+          </div>
+          <div className='borderWraper'>
+            <div className='cardMS'>
+              <div className='cardMSPic'></div>
+              <div className='cardMSText'></div>
+            </div>
+          </div>
+          <div className='borderWraper'>
+            <div className='cardMS'>
+              <div className='cardMSPic'></div>
+              <div className='cardMSText'></div>
+            </div>
+          </div>
+          <div className='borderWraper'>
+            <div className='cardMS'>
+              <div className='cardMSPic'></div>
+              <div className='cardMSText'></div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='cred-Container'>
