@@ -101,16 +101,16 @@
 }
 
 .cardMidSection{
-    margin-top: 15px;
+    margin-top: 50px;
     color: white;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 70px;
 }
 
 .cardMS{
-    height: 370px;
-    width: 370px;
+    height: 200px;
+    width: 200px;
     background-color: #333;
     border-radius: 10px;
 }
