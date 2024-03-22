@@ -55,6 +55,25 @@
     text-align: center;
 }
 
+.startedBtn{
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.startedBtn:hover{
+    background-color: var(--btn-bg-color-hover);
+    color: var(--btn-text-color-hover);
+}
+
 .MidSection{
     position: relative;
     width: 100%;

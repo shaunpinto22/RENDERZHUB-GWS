@@ -89,6 +89,7 @@ const Getstarted = () => {
         <div className='HeroText'>
           <span className='HeroTextMain'>Empowering Digital Artists to<br/>Showcase and Collaborate</span>
           <span className='HeroTextSub'>Unleash your creativity with our platform, empowering digital artists to<br/> showcase their work and collaborate seamlessly in a vibrant community.</span>
+          <div className='startedBtn'><span>Get Started</span></div>
         </div>
       </div>
       <div className='MidSection'>
