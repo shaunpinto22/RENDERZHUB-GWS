@@ -127,7 +127,7 @@
 .cardMS{
     height: 200px;
     width: 200px;
-    background-color: #333;
+    background-color: var(--card-popup-bg-color);
     border-radius: 10px;
     overflow: hidden;
 }
