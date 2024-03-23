@@ -34,7 +34,7 @@
 .HeroText{
     color: white;
     position: absolute;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 4rem);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,13 +44,13 @@
 }
 
 .HeroTextMain{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
 }
 
 .HeroTextSub{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     text-align: center;
 }
@@ -65,7 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 400;
 }
 
@@ -77,7 +77,7 @@
 .MidSection{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,8 +95,8 @@
     width: fit-content;
 }
 
-.MidSection>img{
-    position: absolute;
+.imgBgMidSection{
+    /* position: absolute; */
     border-radius: 10px;
 }
 
@@ -112,12 +112,12 @@
     display: flex;
     flex-direction: column;
     color: #522588;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 700;
 }
 
 .cardMidSection{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     color: white;
     display: flex;
     flex-direction: row;
@@ -149,8 +149,8 @@
 
 
 .cred-Container{
-    height: 800px;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

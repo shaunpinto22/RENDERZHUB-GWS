@@ -95,7 +95,7 @@ const Getstarted = () => {
       <div className='MidSection'>
         <div className='MainCardMidSection'>
           <div><span>B</span><span>U</span><span>Y</span></div>
-          <div className="borderWraper"><img src="/images/fg1.png" alt="" srcset="" /></div>
+          <div className="borderWraper"><img className='imgBgMidSection' src="/images/fg1.png" alt="" srcset="" /></div>
           <div><span>S</span><span>E</span><span>L</span><span>L</span></div>
         </div>
         <div className='cardMidSection'>
