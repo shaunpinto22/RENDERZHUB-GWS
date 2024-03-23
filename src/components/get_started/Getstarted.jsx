@@ -127,9 +127,10 @@ const Getstarted = () => {
       </div>
       <div className='cred-Container'>
         <div className='credSlider'>
-          {/* <span id='slider'></span> */}
-          <span onClick={(e) => handleToolClick("sign-up")} style={getToolStyles("sign-up")}>Sign-Up</span>
-          <span onClick={(e) => handleToolClick("sign-in")} style={getToolStyles("sign-in")}>Sign-In</span>
+         <span className='switch'>
+          <input type="checkbox" id='switcher' />
+          <label htmlFor="switcher"></label>
+         </span>
         </div>
         <div className='container-credentials' id="container-credentials">
           <div className='form-container sign-up'>
