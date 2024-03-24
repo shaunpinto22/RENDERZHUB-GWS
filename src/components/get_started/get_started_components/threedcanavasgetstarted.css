@@ -1,0 +1,25 @@
+.ThreeDCanvasContainerGS{
+    height: inherit;
+    width: inherit;
+    transition: var(--transition);
+    /* background-color: aqua; */
+    /* border-radius: 23px; */
+}
+
+.fullScreenGS{
+    position: relative;
+    z-index: 1;
+    left: 91.5%;
+    top: 85%;
+    /* border: 1px solid red; */
+    background-color: var(--icon-bg-color);
+    color: var(--icon-svg-color);
+    border-radius: 4px;
+    padding: 2px;
+    transition: var(--transition);
+}
+
+.fullScreenGS:hover{
+    background-color: var(--icon-bg-color-hover);
+    color: var(--icon-svg-color-hover);
+}

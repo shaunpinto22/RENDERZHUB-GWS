@@ -3,6 +3,7 @@ import './getstarted.css'
 
 import logo0 from "../svg/RZH21.svg";
 import logo1 from "../svg/RenderzHub.svg";
+import ThreeDCanavasGetStarted from './get_started_components/ThreeDCanavasGetStarted';
 
 const Getstarted = () => {
 
@@ -95,7 +96,7 @@ const Getstarted = () => {
         <div className='cardMidSection'>
           <div className='borderWraper'>
             <div className='cardMS'>
-              <div className='cardMSPic'></div>
+              <div className='cardMSPic'><ThreeDCanavasGetStarted/></div>
               <div className='cardMSText'><span>3D Model</span></div>
             </div>
           </div>
