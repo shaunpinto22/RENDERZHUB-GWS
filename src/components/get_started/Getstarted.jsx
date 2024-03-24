@@ -7,12 +7,16 @@ import logo1 from "../svg/RenderzHub.svg";
 const Getstarted = () => {
 
   const [selectedTool, setSelectedTool] = useState('sign-up');
-  // const [checked, setChecked] = useState(false);
 
   const handleToolClick = (tool) => {
     setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
 
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
 
   // const getToolStyles = (tool) => {
   //   return selectedTool === tool
@@ -56,17 +60,17 @@ const Getstarted = () => {
   //   }
   // };
 
-  const getToolStyles = (tool) => {
-    return {
-      position: 'relative',
-      background: selectedTool === tool ? 'var(--btn-bg-color)' : 'var(--btn-bg-color-hover)',
-      color: selectedTool === tool ? 'var(--btn-text-color)' : 'var(--btn-text-color-hover)',
-      width: '70px',
-      height: '35px',
-      transform: selectedTool === 'sign-up' ? 'translateX(0%)' : 'translateX(100%)',
-      transition: 'all 0.6s ease-in-out',
-    };
-  };
+  // const getToolStyles = (tool) => {
+  //   return {
+  //     position: 'relative',
+  //     background: selectedTool === tool ? 'var(--btn-bg-color)' : 'var(--btn-bg-color-hover)',
+  //     color: selectedTool === tool ? 'var(--btn-text-color)' : 'var(--btn-text-color-hover)',
+  //     width: '70px',
+  //     height: '35px',
+  //     transform: selectedTool === 'sign-up' ? 'translateX(0%)' : 'translateX(100%)',
+  //     transition: 'all 0.6s ease-in-out',
+  //   };
+  // };
 
   return (
     <div className="GetStartedContainer">
@@ -118,11 +122,11 @@ const Getstarted = () => {
       <div className='cred-Container'>
         <div className='credSlider'>
          <span className='switch'>
-          <input type="checkbox" id='switcher'/>
+          <input type="checkbox" id='switcher' onChange={handleCheckboxChange} checked={isChecked}/>
           <label htmlFor="switcher"></label>
          </span>
         </div>
-        <div className='container-credentials' id="container-credentials">
+        <div className={`container-credentials ${isChecked ? 'slide-in' : ''}`} id="container-credentials">
           <div className='form-container sign-up'>
             <form>
               <h1>Create Account</h1>
