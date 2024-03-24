@@ -150,7 +150,11 @@ const Getstarted = () => {
             transform: isChecked ? 'translateX(50%)' : 'translateX(-50%)',
             zIndex: 5,
             transition: 'transform 0.5s ease-in-out'
-          }}><div>Are you new? Sign up</div><div className='credImageSlide'><img src={logo0} className='credLogo'/></div><div>Are you old? Sign in</div></span>
+          }}>
+            <div>Elevate Your Creations,<br/> Sign Up for Limitless Inspiration!</div>
+            <div className='credImageSlide'><img src={logo0} className='credLogo'/></div>
+            <div>Welcome back!<br/> Let's Dive Into Your World of Creations!</div>
+          </span>
         </div>
       </div>
     </div>

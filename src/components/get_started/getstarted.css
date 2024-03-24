@@ -483,6 +483,8 @@
     align-items: center;
     justify-content: center;
     width: 36%;
+    text-align: center;
+    padding: 15px;
 }
 
 .credImageSlide{
