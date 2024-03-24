@@ -274,10 +274,13 @@
 }
 
 .switchForm{
-    background-color: var(--btn-bg-color);
+    background-color: #5a24a5;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
+
 
 /* .credSlider>span:hover{
     color: white;
@@ -470,4 +473,27 @@
 
 .container-credentials.active .toggle-right{
     transform: translateX(200%);
+}
+
+.switchForm > div{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36%;
+}
+
+.credImageSlide{
+    width: 50%;
+    height: 100%;
+}
+
+.credLogo{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
 }
