@@ -7,22 +7,12 @@ import logo1 from "../svg/RenderzHub.svg";
 const Getstarted = () => {
 
   const [selectedTool, setSelectedTool] = useState('sign-up');
-  const [isRegisterActive, setIsRegisterActive] = useState(false);
-  const [isLoginActive, setIsLoginActive] = useState(false);
-
-  const handleRegisterClick = () => {
-    setIsRegisterActive(true);
-    setIsLoginActive(false); // Reset login state
-  };
-
-  const handleLoginClick = () => {
-    setIsLoginActive(true);
-    setIsRegisterActive(false); // Reset register state
-  };
+  // const [checked, setChecked] = useState(false);
 
   const handleToolClick = (tool) => {
     setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
+
 
   // const getToolStyles = (tool) => {
   //   return selectedTool === tool
@@ -81,7 +71,7 @@ const Getstarted = () => {
   return (
     <div className="GetStartedContainer">
       <div className='HeroSection'>
-        <img src="/images/bg.png" alt="" srcset="" />
+        <img src="/images/bg.png" alt="" />
         <div className="logo getStartedLogo">
           <img src={logo0} alt="logo" />
           <img className="logoText" src={logo1} alt="logo" />
@@ -95,7 +85,7 @@ const Getstarted = () => {
       <div className='MidSection'>
         <div className='MainCardMidSection'>
           <div><span>B</span><span>U</span><span>Y</span></div>
-          <div className="borderWraper"><img className='imgBgMidSection' src="/images/fg1.png" alt="" srcset="" /></div>
+          <div className="borderWraper"><img className='imgBgMidSection' src="/images/fg1.png" alt="" srcSet="" /></div>
           <div><span>S</span><span>E</span><span>L</span><span>L</span></div>
         </div>
         <div className='cardMidSection'>
@@ -128,7 +118,7 @@ const Getstarted = () => {
       <div className='cred-Container'>
         <div className='credSlider'>
          <span className='switch'>
-          <input type="checkbox" id='switcher' />
+          <input type="checkbox" id='switcher'/>
           <label htmlFor="switcher"></label>
          </span>
         </div>
@@ -151,6 +141,7 @@ const Getstarted = () => {
               <button>Sign In</button>
             </form>
           </div>
+          <span className='switchForm'></span>
         </div>
       </div>
     </div>

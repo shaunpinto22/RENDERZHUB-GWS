@@ -234,12 +234,12 @@
     transition: 0.25s;
 }
 
-.switch input:checked:before{
+.switch input:checked::before{
     color: var(--btn-text-color);
     transition: color 0.5s;
 }
 
-.switch input:checked:after{
+.switch input:checked::after{
     color: var(--btn-bg-color);
     transition: color 0.5s;
 }
@@ -272,6 +272,15 @@
     background: var(--btn-text-color);
     transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
 }
+
+.switchForm{
+    background-color: var(--btn-bg-color);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
 
 /* .credSlider>span:hover{
     color: white;
