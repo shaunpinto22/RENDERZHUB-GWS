@@ -121,12 +121,12 @@ const Getstarted = () => {
       </div>
       <div className='cred-Container'>
         <div className='credSlider'>
-         <span className='switch'>
-          <input type="checkbox" id='switcher' onChange={handleCheckboxChange} checked={isChecked}/>
-          <label htmlFor="switcher"></label>
-         </span>
+          <span className='switch'>
+            <input type="checkbox" id='switcher' onChange={handleCheckboxChange} checked={isChecked} />
+            <label htmlFor="switcher"></label>
+          </span>
         </div>
-        <div className={`container-credentials ${isChecked ? 'slide-in' : ''}`} id="container-credentials">
+        <div className="container-credentials" id="container-credentials">
           <div className='form-container sign-up'>
             <form>
               <h1>Create Account</h1>
@@ -145,7 +145,12 @@ const Getstarted = () => {
               <button>Sign In</button>
             </form>
           </div>
-          <span className='switchForm'></span>
+          <span className='switchForm' style={{
+            position: 'absolute',
+            transform: isChecked ? 'translateX(50%)' : 'translateX(-50%)',
+            zIndex: 5,
+            transition: 'transform 0.5s ease-in-out'
+          }}></span>
         </div>
       </div>
     </div>
