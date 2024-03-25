@@ -9,6 +9,14 @@ const Getstarted = () => {
 
   const [selectedTool, setSelectedTool] = useState('sign-up');
 
+  const [inputs, setInputs] = useState({});
+
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setInputs(values => ({...values, [name]:value}));
+  }
+
   const handleToolClick = (tool) => {
     setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
@@ -18,6 +26,11 @@ const Getstarted = () => {
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(inputs);
+  }
 
   // const getToolStyles = (tool) => {
   //   return selectedTool === tool
@@ -129,12 +142,13 @@ const Getstarted = () => {
         </div>
         <div className="container-credentials" id="container-credentials">
           <div className='form-container sign-up'>
-            <form>
+          {/* method='POST' action='./backend/credentials.php' */}
+            <form onSubmit={handleSubmit}>
               <h1>Create Account</h1>
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="password" placeholder="Password" />
-              <button>Sign Up</button>
+              <input type="text" placeholder="Name" name='name' onChange={handleChange}/>
+              <input type="email" placeholder="Email" name='email' onChange={handleChange}/>
+              <input type="password" placeholder="Password" name='password' onChange={handleChange}/>
+              <button name='submit'>Sign Up</button>
             </form>
           </div>
           <div className='form-container sign-in'>
@@ -143,7 +157,7 @@ const Getstarted = () => {
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
               <a href="/">Forget Your Password?</a>
-              <button>Sign In</button>
+              <input type='submit' value='Sign In' name='submit'/>
             </form>
           </div>
           <span className='switchForm' style={{
