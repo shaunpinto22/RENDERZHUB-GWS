@@ -17,6 +17,11 @@ const Getstarted = () => {
     setInputs(values => ({...values, [name]:value}));
   }
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(inputs);
+  }
+
   const handleToolClick = (tool) => {
     setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
@@ -27,10 +32,6 @@ const Getstarted = () => {
     setIsChecked(!isChecked);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(inputs);
-  }
 
   // const getToolStyles = (tool) => {
   //   return selectedTool === tool
