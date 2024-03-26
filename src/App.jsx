@@ -8,6 +8,7 @@ import Rhstudio from './components/rhstudio/Rhstudio';
 import Getstarted from './components/get_started/Getstarted';
 import Job from './components/job/Job';
 import Feedback from './components/feedback/Feedback';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Rhstudio/> */}
       {/* <Getstarted/> */}
       {/* <Job/> */}
-      <Feedback/>
+      {/* <Feedback/> */}
+      <About/>
     </>
   );
 }
