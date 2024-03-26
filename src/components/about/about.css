@@ -16,4 +16,30 @@
     /* border: 1px solid red; */
     margin: 10px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+/* .aboutLogo>img{
+    height: 100%;
+    width: 100%;
+} */
+
+.aboutMainLogo{
+    height: 50%;
+    width: 50%;
+}
+
+.aboutSubLogo{
+    width: 100%;
 }
