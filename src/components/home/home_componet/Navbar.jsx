@@ -5,11 +5,11 @@ import logo0 from "../../svg/RZH21.svg";
 // import logo1 from '../images/RenderzHub.png'
 import logo1 from "../../svg/RenderzHub.svg";
 
-const Nav = () => {
-  const [selectedTool, setSelectedTool] = useState(null);
+const Nav = ({selectedTool, setSelectedTool}) => {
+  // const [selectedTool, setSelectedTool] = useState(null);
 
   const handleToolClick = (tool) => {
-    setSelectedTool((prevTool) => (prevTool === tool ? null : tool));
+    setSelectedTool((prevTool) => (prevTool === tool ? tool : tool));
   };
 
   const getToolStyles = (tool) => {

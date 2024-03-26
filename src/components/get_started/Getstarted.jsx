@@ -5,6 +5,8 @@ import logo0 from "../svg/RZH21.svg";
 import logo1 from "../svg/RenderzHub.svg";
 import ThreeDCanavasGetStarted from './get_started_components/ThreeDCanavasGetStarted';
 
+import axios from 'axios';
+
 const Getstarted = () => {
 
   const [selectedTool, setSelectedTool] = useState('sign-up');
@@ -19,6 +21,7 @@ const Getstarted = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    axios.post('http:/localhost:80/api/user/save', inputs);
     console.log(inputs);
   }
 
@@ -144,7 +147,8 @@ const Getstarted = () => {
         <div className="container-credentials" id="container-credentials">
           <div className='form-container sign-up'>
           {/* method='POST' action='./backend/credentials.php' */}
-            <form onSubmit={handleSubmit}>
+          {/* onSubmit={handleSubmit} */}
+            <form>
               <h1>Create Account</h1>
               <input type="text" placeholder="Name" name='name' onChange={handleChange}/>
               <input type="email" placeholder="Email" name='email' onChange={handleChange}/>

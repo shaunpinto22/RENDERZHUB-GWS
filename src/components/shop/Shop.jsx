@@ -9,6 +9,7 @@ import VideoPlayer from './shop_component/VideoPlayer'
 
 const Shop = () => {
 
+  const [selectedTool, setSelectedTool] = useState('shop');
   const [cardClick, setCardClick] = useState(false);
   const cardPopup = () => {
     setCardClick(true);
@@ -17,7 +18,7 @@ const Shop = () => {
   return (
     <div className='shopPage'>
       <div className='navContainer'>
-        <Nav />
+      <Nav selectedTool={selectedTool} setSelectedTool={setSelectedTool}/>
       </div>
       <div className='shopContainer'>
         <div className="topNav"><Upload /><ProfileRadiusPic /></div>
