@@ -3,6 +3,7 @@ import "./feedback.css";
 import Nav from "../home/home_componet/Navbar";
 import Upload from "../rhstudio/rhstudio_component/Upload";
 import ProfileRadiusPic from "../rhstudio/rhstudio_component/ProfileRadiusPic";
+import FeedBackLogo from "../svg/Feedback.svg";
 
 const Feedback = () => {
   const [selectedTool, setSelectedTool] = useState("feedback");
@@ -15,7 +16,8 @@ const Feedback = () => {
           <ProfileRadiusPic />
         </div>
         <div className="fbForm">
-          <div className="customizationContainer">
+          <div className="customizationContainer fbFormContainer">
+            <img src={FeedBackLogo} alt="fblogo" height={200}width={500}/>
             <form action="" method="post">
               <div>
                 <div className="formElementContainer left">

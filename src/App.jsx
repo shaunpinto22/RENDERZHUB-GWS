@@ -22,8 +22,8 @@ function App() {
       {/* <Rhstudio/> */}
       {/* <Getstarted/> */}
       {/* <Job/> */}
-      {/* <Feedback/> */}
-      <About/>
+      <Feedback/>
+      {/* <About/> */}
     </>
   );
 }

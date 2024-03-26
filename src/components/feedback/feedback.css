@@ -16,4 +16,19 @@
     /* border: 1px solid red; */
     margin: 10px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbFormContainer>img{
+    /* border: 1px solid red; */
 }
