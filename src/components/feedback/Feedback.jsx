@@ -19,31 +19,39 @@ const Feedback = () => {
             <form action="" method="post">
               <div>
                 <div className="formElementContainer left">
-                  <label htmlFor="fname">Full Name</label>
+                  <label>Name</label>
                 </div>
                 <div className="formElementContainer right">
-                  <input type="text" name="fname" />
+                  <input type="text" name="name" />
                 </div>
               </div>
               <div>
                 <div className="formElementContainer left">
-                  <label htmlFor="uname">Username</label>
+                  <label>Email</label>
                 </div>
                 <div className="formElementContainer right">
-                  <input type="text" name="uname" />
+                  <input type="text" name="email" />
                 </div>
               </div>
               <div>
                 <div className="formElementContainer left">
-                  <label htmlFor="speciality">Speciality</label>
+                  <label>Subject</label>
                 </div>
                 <div className="formElementContainer right">
-                  <input type="text" name="speciality" />
+                  <input type="text" name="subject" />
+                </div>
+              </div>
+              <div>
+                <div className="formElementContainer left">
+                  <label>Message</label>
+                </div>
+                <div className="formElementContainer right">
+                  <textarea name="message" cols="30" rows="5"></textarea>
                 </div>
               </div>
               <div>
                 <div className="formElementContainer center">
-                  <input type="submit" value="Save" />
+                  <input type="submit" value="Submit" />
                 </div>
               </div>
             </form>
