@@ -1,0 +1,19 @@
+.fbContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.fbSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fbForm{
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: 10px;
+    color: white;
+}

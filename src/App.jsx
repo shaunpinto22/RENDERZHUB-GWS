@@ -7,6 +7,7 @@ import Profile from './components/profile/Profile';
 import Rhstudio from './components/rhstudio/Rhstudio';
 import Getstarted from './components/get_started/Getstarted';
 import Job from './components/job/Job';
+import Feedback from './components/feedback/Feedback';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* </Room> */}
       {/* <Rhstudio/> */}
       {/* <Getstarted/> */}
-      <Job/>
+      {/* <Job/> */}
+      <Feedback/>
     </>
   );
 }
