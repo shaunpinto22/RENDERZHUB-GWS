@@ -35,10 +35,6 @@
 .shopInfoMain{
     display: flex;
     margin: 15px;
-}
-
-.shopInfoMain{
-    display: flex;
     flex-direction: column;
     color: white;
 }

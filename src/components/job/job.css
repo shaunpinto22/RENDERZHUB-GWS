@@ -16,3 +16,166 @@
     /* border: 1px solid red; */
     margin: 10px;
 }
+
+.jobCard{
+    width: 261px;
+    height: 310px;
+    border-radius: 7px;
+    background-color: var(--shop-card-bg-color);
+}
+
+.jobImg{
+    height: 230px;
+    width: 100%;
+    /* border: 1px solid darkkhaki; */
+    border-radius: 7px 7px 0px 0px;
+    background-color: rgb(255, 230, 0);
+}
+
+.jobInfoMain{
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    color: white;
+}
+
+
+.jobInfoTitle{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.jobInfoDesc{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.jobInfoFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    /* border: 1px solid darkkhaki; */
+}
+
+.jobInfoFooter>span{
+    /* border: 1px solid rgb(108, 36, 190); */
+    width: 100%;
+    align-items: center;
+    margin: 0px 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.jobInfoUsername{
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+}
+
+.jobInfoPrice{
+    display: flex;
+    justify-content: right;
+    font-weight: 700;
+}
+
+.jobCardInfoMainHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    border-bottom: var(--border-color-drawing);
+}
+
+.jobCardInfoTitle{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    margin-bottom: 5px;
+}
+
+.jobCardInfoDate{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.jobCardInfoMainBody{
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.jobCardMainBodyLeft{
+    /* border: 1px solid palegreen; */
+    width: 100%;
+}
+
+.jobCardInfoThumbnail{
+     background-color: white;
+     width: 500px;
+     height: 500px;
+     border-radius: 23px;
+}
+
+.jobCardMainBodyRight{
+    /* border: 1px solid peru; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.jobCardDesc{
+    height: max-content;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobDescHead{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.jobDescSub{
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.jobCardInfoLink{
+     /* margin-top: 15px; */
+     border: var(--border-color-drawing);
+     border-radius: 23px;
+     padding:20px 15px;
+     width: 80%;
+     margin: 15px 25px;
+     height: max-content;
+}
+
+
+.jobCardLinkHead{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.jobCardLinkSub{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5px;
+}
