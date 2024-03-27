@@ -162,7 +162,8 @@ const Getstarted = () => {
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
               <a href="/">Forget Your Password?</a>
-              <input type='submit' value='Sign In' name='submit'/>
+              <button name='submit'>Sign Up</button>
+              {/* <input type='submit' value='Sign In' name='submit'/> */}
             </form>
           </div>
           <span className='switchForm' style={{
